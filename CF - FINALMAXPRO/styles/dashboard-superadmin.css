@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #093D39; 
+    color: #ffffff;
+}
+
+.bg-sidebar {
+    background-color: #125750; 
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    color: #F7A632; 
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    color: #B4D9D6; 
+    font-size: 18px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+.nav-link.active {
+    background-color: #4EB89F; 
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #3A9279; 
+    color: white;
+}
+
+.admin-text {
+    font-size: 14px;
+    color: #B4D9D6; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bg-main {
+    background-color: #093D39; 
+    padding: 30px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn-back, .btn-logout {
+    background-color: #333333; 
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-college, .add-btn {
+    background-color: #125750;
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-college:hover, .add-btn:hover, .btn-back:hover, .btn-logout:hover {
+    background-color: #3A9279; 
+}
+
+.dashboard-indicator {
+    color: #B4D9D6; 
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .bg-sidebar {
+        height: auto;
+    }
+}
+
+/* Style for the list of colleges */
+.college-list {
+    background-color: #125750; /* Lighter teal for the list, harmonizing with sidebar */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-top: 20px; /* Adds spacing from any content above */
+}
+
+.college-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #4EB89F; /* Light green for separation, matches button hover */
+    color: #ffffff; /* Ensures text is white for visibility */
+}
+
+.college-item:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+}
+
+/* Styling for buttons in the college list */
+.button {
+    background-color: #4EB89F; /* Light green buttons, matching active link */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    text-transform: uppercase; /* Consistency with dashboard button styles */
+}
+
+.button:hover {
+    background-color: #3A9279; /* Darker green on hover, matching sidebar hover */
+}

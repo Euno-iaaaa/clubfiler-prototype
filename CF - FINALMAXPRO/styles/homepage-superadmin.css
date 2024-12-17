@@ -1,0 +1,118 @@
+body {
+    background-color: #093D39;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #125750;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #F7A632 !important;
+    margin-right: auto; 
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
+.nav-link {
+    color: #B4D9D6 !important;
+    font-weight: bold;
+    margin: 0 15px; 
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+
+.welcome-section {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.title-about-section {
+    color: #B4D9D6 ;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-faq-section {
+    color: #B4D9D6 ;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.welcome-section h2 {
+    color: #F7A632;
+    font-weight: bold;
+}
+
+.welcome-section p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+
+.btn-manage {
+    background-color: #4EB89F;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.btn-manage:hover {
+    background-color: #3A9279;
+    color: #ffffff;
+}
+
+
+.btn-logout {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-logout:hover {
+    background-color: #555555;
+}
+
+.about-section {
+    padding-top: 30px;
+    width: 50%;          
+    margin: 0 auto;     
+    text-align: center; 
+  }
+
+  .faq-section {
+    padding-top: 30px;
+    width: 50%;          
+    margin: 0 auto;     
+    text-align: center; 
+  }
+
+  .faq {
+    width: 50%;          
+    margin: 0 auto;     
+    text-align: center; 
+  }
+
+  .faq-question {
+    color: #F7A632;
+  }
+  
+  
